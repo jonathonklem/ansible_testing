@@ -1,0 +1,11 @@
+---
+
+- name: copy files
+  copy: src=test.txt dest=~/
+
+- name: update ubuntu
+  command: apt-get update -qq
+  sudo: yes
+
+- name: touch file
+  command: touch {{ file }}

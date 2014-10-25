@@ -1,0 +1,5 @@
+---
+ansible_ssh_host: 172.31.31.146
+ansible_ssh_private_key_file: /home/ubuntu/ansible/keys/ansible-testing.pem
+ansible_ssh_port: 22
+ansible_ssh_user: ubuntu
