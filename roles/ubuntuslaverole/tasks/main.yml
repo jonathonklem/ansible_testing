@@ -1,5 +1,3 @@
----
-
 - name: copy files
   copy: src=test.txt dest=~/
 

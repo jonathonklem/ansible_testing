@@ -1,4 +1,3 @@
----
 - hosts: ubuntuslave
   roles:
     - ubuntuslaverole
