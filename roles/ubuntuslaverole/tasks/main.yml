@@ -4,7 +4,11 @@
   copy: src=test.txt dest=~/
 
 - name: update ubuntu
-  command: apt-get update -qq
+  command: apt-get update -yq
+  sudo: yes
+
+- name: upgrade ubuntu
+  command: apt-get upgrade -qq
   sudo: yes
 
 - name: touch file
